@@ -1,0 +1,5 @@
+- hosts: stage
+  connection: local
+
+  roles:
+  - role-versioning-example
