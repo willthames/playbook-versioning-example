@@ -1,0 +1,5 @@
+- hosts: prod
+  connection: local
+
+  roles:
+  - role-versioning-example
